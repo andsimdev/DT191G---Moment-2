@@ -1,57 +1,12 @@
 [
   {
-    "Text": "testar",
-    "Author": "simon",
-    "Created": "0001-01-01T00:00:00"
-  },
-  {
-    "Text": "hallå där!",
-    "Author": "Simon, Expertsnicksnackare",
-    "Created": "2022-02-22T00:58:54.2315147+01:00"
-  },
-  {
-    "Text": "Halloj!",
-    "Author": "simon, Expertsnicksnackare",
-    "Created": "2022-02-22T01:22:51.201663+01:00"
-  },
-  {
-    "Text": "Halloj!",
+    "Text": "Test",
     "Author": "Simon, Nybörjarsnicksnackare",
-    "Created": "2022-02-22T02:17:36.478916+01:00"
+    "Created": "2022-03-04T13:27:01.2384224+01:00"
   },
   {
-    "Text": "Tjenareee!",
-    "Author": "Simon A, Nybörjarkvacksalvare",
-    "Created": "2022-02-22T02:19:47.6988774+01:00"
-  },
-  {
-    "Text": "Tjeeeeeena!",
-    "Author": "Simpa, Nybörjarkvacksalvare",
-    "Created": "2022-02-22T02:20:33.8466257+01:00"
-  },
-  {
-    "Text": "Tjeeeeeena!",
-    "Author": "Simpa, Nybörjarkvacksalvare",
-    "Created": "2022-02-22T02:20:44.5515833+01:00"
-  },
-  {
-    "Text": "hejjj",
-    "Author": "dsdsd, Expertsnicksnackare",
-    "Created": "2022-02-22T22:13:29.0572911+01:00"
-  },
-  {
-    "Text": "hejjj",
-    "Author": "dsdsd, Expertsnicksnackare",
-    "Created": "2022-02-22T22:15:00.1866263+01:00"
-  },
-  {
-    "Text": "hejjj",
-    "Author": "dsdsd, Expertsnicksnackare",
-    "Created": "2022-02-22T22:15:06.0312395+01:00"
-  },
-  {
-    "Text": "Detta är ett inlägg!",
-    "Author": "Simon, Nybörjarkvacksalvare",
-    "Created": "2022-02-22T22:30:09.66525+01:00"
+    "Text": "Testinlägg 2",
+    "Author": "Användare, Expertkvacksalvare",
+    "Created": "2022-03-04T13:27:26.8759141+01:00"
   }
 ]

@@ -6,8 +6,8 @@ namespace DT191G___Moment_2.Models
     {
         // Properties
         [Required(ErrorMessage = "Skriv inlägg med mellan 3 och 100 tecken")]
-        [MaxLength(100)]
-        [MinLength(3)]
+        [MaxLength(100, ErrorMessage = "Skriv inlägg med max 100 tecken")]
+        [MinLength(3, ErrorMessage = "Skriv inlägg med minst 3 tecken")]
         public string Text { get; set; }
 
         [Required(ErrorMessage = "Inloggad användare saknas")]
