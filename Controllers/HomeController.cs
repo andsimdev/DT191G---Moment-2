@@ -16,7 +16,7 @@ namespace DT191G___Moment_2.Controllers
 
             return View();
         }
-        
+
         // Logga in användare (ta emot formulärdata)
         [HttpPost]
         public IActionResult Login(IFormCollection form)
@@ -81,7 +81,7 @@ namespace DT191G___Moment_2.Controllers
                 var JsonObj = JsonConvert.DeserializeObject<List<Post>>(JsonStr);
 
                 // Lägg till
-                if(JsonObj != null)
+                if (JsonObj != null)
                 {
                     JsonObj.Add(post);
                 }
@@ -93,8 +93,11 @@ namespace DT191G___Moment_2.Controllers
                 ModelState.Clear();
 
                 return View(post);
-            } else
+            }
+            else
             {
+                // Hämta användare från sessionsvariabeln och skicka med
+                ViewBag.user = HttpContext.Session.GetString("user");
                 return View();
             }
         }
