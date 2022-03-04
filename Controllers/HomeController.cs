@@ -97,7 +97,7 @@ namespace DT191G___Moment_2.Controllers
             else
             {
                 // Hämta användare från sessionsvariabeln och skicka med
-                ViewBag.user = HttpContext.Session.GetString("user");
+                //ViewBag.user = HttpContext.Session.GetString("user");
                 return View();
             }
         }

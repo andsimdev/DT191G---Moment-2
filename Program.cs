@@ -1,14 +1,14 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Lägg till MVC
+// Lï¿½gg till MVC
 builder.Services.AddControllersWithViews();
 
-// Stöd för sessions
+// Stï¿½d fï¿½r sessions
 builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromSeconds(10);
+    options.IdleTimeout = TimeSpan.FromSeconds(1000);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
