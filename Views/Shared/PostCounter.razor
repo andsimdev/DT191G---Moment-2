@@ -1,0 +1,16 @@
+﻿@using Newtonsoft.Json;
+@using DT191G___Moment_2.Models;
+@using DT191G___Moment_2.Views.Shared;
+
+@code {
+    public int CountPosts()
+    {
+        var JsonStr = System.IO.File.ReadAllText("posts.json");
+        var JsonObj = JsonConvert.DeserializeObject<List<Post>>(JsonStr);
+        int posts = JsonObj.Count;
+
+        return posts;
+    }
+}
+
+<p class="PostCounter">Antal inlägg: @CountPosts()</p>

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "3FuwWMbnGdAoqm6mIb+TQc8gKkegR4r2c8WlEjPqMQo=",
+  "Source": "DT191G - Moment 2",
+  "BasePath": "_content/DT191G - Moment 2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DT191G - Moment 2\\wwwroot",
+      "Source": "DT191G - Moment 2",
+      "ContentRoot": "C:\\Users\\simpa\\source\\repos\\DT191G - Moment 2\\wwwroot\\",
+      "BasePath": "_content/DT191G - Moment 2",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\simpa\\source\\repos\\DT191G - Moment 2\\wwwroot\\favicon.png",
+      "SourceId": "DT191G - Moment 2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simpa\\source\\repos\\DT191G - Moment 2\\wwwroot\\",
+      "BasePath": "_content/DT191G - Moment 2",
+      "RelativePath": "favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\simpa\\source\\repos\\DT191G - Moment 2\\wwwroot\\logo.png",
+      "SourceId": "DT191G - Moment 2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simpa\\source\\repos\\DT191G - Moment 2\\wwwroot\\",
+      "BasePath": "_content/DT191G - Moment 2",
+      "RelativePath": "logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\simpa\\source\\repos\\DT191G - Moment 2\\wwwroot\\style.css",
+      "SourceId": "DT191G - Moment 2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simpa\\source\\repos\\DT191G - Moment 2\\wwwroot\\",
+      "BasePath": "_content/DT191G - Moment 2",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\simpa\\source\\repos\\DT191G - Moment 2\\wwwroot\\user.svg",
+      "SourceId": "DT191G - Moment 2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\simpa\\source\\repos\\DT191G - Moment 2\\wwwroot\\",
+      "BasePath": "_content/DT191G - Moment 2",
+      "RelativePath": "user.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user.svg"
+    }
+  ]
+}

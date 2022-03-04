@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/style.css">
+    <link rel="shortcut icon" href="~/favicon.png" type="image/x-icon">
+    <title>@ViewData["Title"] - DT191G, Moment 2</title>
+    <base href="~/" />
+</head>
+<body>
+    <main>
+        <header>
+            <a asp-controller="Home" asp-action="Index">
+                <img src="~/logo.png" alt="Logotyp för Kvacker!" width="150">
+            </a>
+
+            <div class="usernavdiv">
+                <div class="userdiv">
+                    @RenderSection("user", required: false)
+                </div>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a asp-controller="Home" asp-action="Index">Startsida</a>
+                        </li>
+                        <li>
+                            <a asp-controller="Home" asp-action="Posts">Inlägg</a>
+                        </li>
+                        <li>
+                            <a asp-controller="Home" asp-action="Login">Ny inloggning</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section>
+            @RenderBody()
+        </section>
+        <footer>
+            <p>Skapad av Simon Andersson i kursen DT191G, Webbutveckling med .NET</p>
+            <p>Idag är det @ViewData["Date"]</p>
+        </footer>
+    </main>
+    <script src="_framework/blazor.server.js"></script>
+</body>
+</html>

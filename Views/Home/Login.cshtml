@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Logga in";
+}
+
+<h1>Logga in</h1>
+
+<form method="post" asp-controller="Home" asp-action="Login" class="userform">
+    <label for="username">Användarnamn:</label>
+    <input type="text" name="username" id="username" placeholder="Skriv ett användarnamn..."/>
+    <br />
+    <select name="userlevel" >
+        <option value="Nybörjar">Nybörjare</option>
+        <option value="Expert">Expert</option>
+    </select>
+    <br />
+    <span>
+    <input type="radio" id="kvack" name="usertype" value="kvacksalvare"/>
+    <label for="kvack">Kvacksalvare</label>
+    </span>
+    <span>
+    <input type="radio" id="snick" name="usertype" value="snicksnackare"/>
+    <label for="snick">Snicksnackare</label>
+    </span>
+    <br />
+    <span>
+    <input type="checkbox" id="check" required/>
+    <label for="check">Jag vill logga in som användare</label>
+    </span>
+    <br />
+    <input type="submit" value="Logga in" class="postsubmit"/>
+</form>

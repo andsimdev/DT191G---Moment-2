@@ -1,0 +1,175 @@
+/* Variabler */
+:root {
+    --black: #3C3C3C;
+    --red: #C63030;
+    --font: 'Staatliches', sans-serif;
+}
+
+/* Importera typsnitt */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=Staatliches&display=swap');
+
+/* Nollställning */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+}
+
+main {
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 25px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.usernavdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userdiv {
+    display: flex;
+    align-self: flex-end;
+    font-family: var(--font);
+    gap: 5px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    min-width: fit-content;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-family: var(--font);
+    color: var(--black);
+    padding: 5px 15px;
+    border: solid 3px var(--black);
+    border-radius: 35px;
+    white-space: nowrap;
+}
+
+section {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5em;
+}
+
+.userform {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+    .userform input {
+        padding: 10px 20px;
+        border-radius: 35px;
+        border-style: solid;
+        border-color: var(--black);
+        border-width: 3px;
+    }
+
+.postform input {
+    padding: 10px 20px;
+    border-radius: 35px;
+    border-style: solid;
+    border-color: var(--black);
+    border-width: 3px;
+}
+
+.posttext {
+    width: 300px;
+}
+
+.postsubmit {
+    background-color: var(--black);
+    color: white;
+    font-size: 1em;
+    border: none !important;
+}
+
+.postsubmit:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 30px;
+    background-color: var(--black);
+    color: white;
+    font-size: .8em;
+}
+
+.validation-summary-errors {
+    color: darkred;
+}
+
+.validation-summary-errors * {
+    list-style-type: none;
+}
+
+.postscontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.postdiv {
+    padding: 10px 20px;
+    margin: 15px;
+    box-shadow: 1px 1px 5px 1px lightgray;
+    border-radius: 35px;
+}
+
+.postdiv p {
+    font-size: 1.25em;
+}
+
+.of {
+    font-family: sans-serif;
+    font-size: .65em !important;
+    font-style: italic;
+    text-align: right;
+}
+
+.PostCounter {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-color: lightgreen;
+    padding: 10px 15px;
+    border-radius: 35px;
+}

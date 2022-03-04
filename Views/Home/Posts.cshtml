@@ -1,0 +1,30 @@
+﻿@model List<DT191G___Moment_2.Models.Post>
+@using DT191G___Moment_2.Views.Shared
+
+@{
+    ViewData["Title"] = "Inlägg";
+}
+
+@section user {
+    <img src="~/user.svg" width="30" alt="">
+    <p>@ViewBag.user</p>
+}
+
+<h1>Alla inlägg</h1>
+
+<div class="postscontainer">
+
+@if(Model != null) {
+    @foreach(var post in Model)
+    {
+        <div class="postdiv">
+            <p>@post.Text</p>
+            <br />
+            <p class="of">Av @post.Author</p>
+        </div>
+    }
+}
+
+</div>
+
+<component type="typeof(PostCounter)" render-mode="ServerPrerendered" />

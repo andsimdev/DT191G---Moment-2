@@ -1,0 +1,34 @@
+﻿@model DT191G___Moment_2.Models.Post
+@using DT191G___Moment_2.Views.Shared
+
+@{
+    ViewData["Title"] = "Startsida";
+}
+
+@section user {
+    <img src="~/user.svg" width="30" alt="">
+    <p>@ViewBag.user</p>
+}
+
+<h1>Skriv inlägg</h1>
+
+<form method="post" class="postform">
+    <input asp-for="Text" type="text" class="posttext" placeholder="Skriv ett inlägg!"/>
+    <input asp-for="Author" type="text" value="@ViewBag.user" style="display:none;"/>
+    <input type="submit" class="postsubmit"/>
+    <br /><br />
+    <div asp-validation-summary="All"></div>
+</form>
+
+<br />
+<br />
+
+@if(@Model != null)
+{
+<div class="postdiv">
+<p>@Model.Text</p>
+<br />
+ <p class="of">@Model.Created</p>
+ </div>
+}
+<component type="typeof(PostCounter)" render-mode="ServerPrerendered" />
